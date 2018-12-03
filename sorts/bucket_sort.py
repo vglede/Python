@@ -27,7 +27,7 @@ def bucketSort(myList, bucketSize=DEFAULT_BUCKET_SIZE):
     maxValue = myList[0]
 
     # For finding minimum and maximum values
-    for i in range(0, len(myList)):
+    for i in range(len(myList)):
         if myList[i] < minValue:
             minValue = myList[i]
         elif myList[i] > maxValue:
